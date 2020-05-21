@@ -70,18 +70,19 @@ File -> Import -> Maven -> Existing Maven project
 2) Once the application is deployed properly you can start to test the api's
 3) Find the below exposed urls to test the application.
 	```	
-	a. To fetch all the course details
-	http://localhost:7000/employees
+		
+		a. To fetch all the course details
+		http://localhost:7000/employees
 
-	b. To register the student (POST Method)
-	http://localhost:7000/employees
-  {
-    "empName": "Meera",
-    "empDob": "2019-09-11T11:32:17.000+0000",
-    "empEmail": "meera@gmail.com",
-    "empExperience": 3
-  }
-
+		b. To register the student (POST Method)
+		http://localhost:7000/employees
+		  {
+		    "empName": "Meera",
+		    "empDob": "2019-09-11T11:32:17.000+0000",
+		    "empEmail": "meera@gmail.com",
+		    "empExperience": 3
+		  }
+		  
 	```
    
 # Contributing
